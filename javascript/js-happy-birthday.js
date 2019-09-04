@@ -58,7 +58,7 @@ function hasClassName(inElement, inClassName)
   var num_bg = 1;
 	var next_bg = 0;
 	function timedCount() {
-		if(count >= 4) {
+		if(count >= 8) {
 			count = 0;
 			autoLoad();
 		} else {
@@ -66,7 +66,7 @@ function hasClassName(inElement, inClassName)
     }
     if(next_bg >= 20) {
 			num_bg = num_bg + 1;
-			if(num_bg > 6) {
+			if(num_bg > 4) {
 				num_bg = 1;
 			}
 			document.body.style.backgroundImage = "url(css/walls/wall" + num_bg + ".jpg)";
