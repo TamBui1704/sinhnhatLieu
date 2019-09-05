@@ -2,7 +2,7 @@
  body {
     margin: 0;
     padding: 0;
-    background-image: url(walls/wall1.jpg);
+    background-color: pink;
     background-position: center center;
     -webkit-transition: 3s;
   }
